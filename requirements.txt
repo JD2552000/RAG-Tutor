@@ -1,0 +1,18 @@
+# --- Core Frameworks ---
+langchain>=0.3.0
+langchain-community
+langchain-google-genai
+langgraph
+
+# --- Vector Database & Embeddings ---
+qdrant-client #For vector database
+sentence-transformers #For local embeddings
+flashrank #For re-ranking
+
+# --- Data Processing ---
+pypdf
+langchain-experimental #For semantic chunking
+python-dotenv
+
+# --- UI ---
+streamlit
